@@ -132,134 +132,157 @@ footer{
     margin: 0;
      }
 
-     main{
-            .sec-home{
-                 p{
-                     strong{
-                        display: grid;
-                        justify-content: center;
-                        align-items: center;
-                        font-size: $secondary-text1;
-                        font-family: 'Oswald', sans-serif;
+main{
+    .sec-home{
+        p{
+            strong{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-size: $secondary-text1;
+               font-family: 'Oswald', sans-serif;
+               text-align: center;
+               padding: $spacing1*3;
+            }
+        }          
+    }
+
+   .vid-home{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 300px;
+       width: 100%;
+       padding: $spacing1*2;
+    }
+
+   .img-home{
+       width: auto;
+
+    }
+}
+
+.main-form{
+        .sec-form{
+            p{
+                strong{
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   font-size: $secondary-text1;
+                   font-family: 'Oswald', sans-serif;
+                   text-align: center;
+                   padding: 20px;
+                }
+            }
+               
+       }
+
+       
+        form{
+        
+            padding: 30px;
+                .bg-gray-400{
+                     div .mb-3{
+                        label .form-label{
+                            display: flex;
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                                }
+                
+                        }
+                    }     
+        }
+
+    }
+
+.main-price{
+    table{ 
+        margin: $spacing1*3;
+        justify-content: center;
+        align-content: center;
+        background-color:$color-primary;
+        flex-wrap: wrap;
+        height: 200px;
+        width: 80px;
+            thead{
+                tr{
+                    th{
                         text-align: center;
-                     }
-                 }
-                    
-            }
-
-            .vid-home{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 300px;
-                width: 100%;
-            }
-
-            .img-home{
-                width: auto;
-
-            }
-
-            .sec-form{
-                p{
-                    strong{
-                       display: flex;
-                       justify-content: center;
-                       align-items: center;
-                       font-size: $secondary-text1;
-                       font-family: 'Oswald', sans-serif;
-                       text-align: center;
+                        color: $color-text2;
                     }
                 }
-                   
-           }
-
-           form{
-               .bg-gray-400{
-                   div .mb-3{
-                       label .form-label{
-                        display: block;
+            }
+            tbody{
+                tr{
+                    td{
                         justify-content: center;
-                        align-items: center;
-                       }
-                    
-                   }
-               }
-               
-           }
-
-           table{
-            .table-price{
-                display: block;
-                justify-content: center;
-                align-items: center;
-                    thead{
-                        tr{
-                            th{
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                            }
+                        align-content: center;
+                        padding: $spacing1;
+                        strong{
+                            display: flex;
+                            align-items: center;
+                            justify-items: center;
+                            text-align: center;
+                            color: $color-text2;
                         }
                     }
-                    tbody{
-                        tr{
-                            td{
-                                strong{
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                }
-                            }
-                        }
-    
-                    }  
-               }
-             }
+                }
 
-            .sec-price{
-                 p{
-                     strong{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        font-size: $secondary-text1;
-                        font-family: 'Oswald', sans-serif;
-                        text-align: center;
-                     }
-                 }
+       }
+     }
 
-                 .map-price{
-                    iframe{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                     }
-                 }
-                
+    .sec-price{
+        p{
+            strong{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-size: $secondary-text1;
+               font-family: 'Oswald', sans-serif;
+               text-align: center;
+               padding: $spacing1;
             }
-
-            
         }
+    }
+
+    .map-price{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 600px;
+        margin: auto;
+        padding: $spacing1*3;
+            iframe{
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                }
+                 }
+    }
            
     .main-galery{
         #galery{
             display: grid;
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: 1fr 1fr 1fr;
-            height: 700px;
+            grid-gap: 15px;
+            height: 400px;
             justify-content: center;
             align-content: center;
 
             .div-galery{
-                padding: 10px;
-
+                justify-items: center;
+                align-items: center;
 
             .img-galery{
                     display: flex;
                     justify-items: center;
                     align-items: center; 
                     object-fit: cover;
+                    height: 150px;
+                    width: 200px;
             }
             
             .img-galery:hover{ 
@@ -269,18 +292,7 @@ footer{
         }
 
     }
-    
-        
-        
-        p{
-            strong{
-               justify-content: center;
-               align-items: center;
-               font-size: $secondary-text1;
-               font-family: 'Oswald', sans-serif;
-               text-align: center;
-            }
-        }
+   
     }
 
     
@@ -293,6 +305,7 @@ footer{
                 font-size: $secondary-text1;
                 font-family: 'Oswald', sans-serif;
                 text-align: center;
+                padding: 20px;
                 }
         }
 

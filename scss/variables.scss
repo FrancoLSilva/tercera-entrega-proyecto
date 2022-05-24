@@ -16,3 +16,19 @@ $primary-text2:20px;
 
 $secondary-text1:15px;
 $secondary-text2:10px;
+
+$redes: (
+    Whatsapp: #4dc247,
+    facebook: #3b5999,
+    instagram: #C13584,
+    twitter: #55acee,
+
+);
+
+    @each $red, $color in $redes{
+                .red-#{$red}{
+                    color:$color
+                }
+    }
+        
+    

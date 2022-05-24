@@ -6,16 +6,48 @@
 
 
 
+/* Style para mis titulos */
+
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:600;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+
+.titles-primario {
+    @extend .titles;
+    font-size:$primary-text1;
+    font-weight:600;
+     }
+
+.titles-secundario {
+    @extend .titles;
+    color: white;
+    background-color: rgb(61, 64, 66);
+    font-size:$primary-text2;
+    font-weight:600;
+     }
+
+.titles-terciario {
+    @extend .titles;
+    font-size:$primary-text2;
+    font-weight:600;
+     }
+
+/* Style para mis contenedores */  
+
 header{
         display: block;
         justify-content: center;
         align-items: center;
             .titles-primario{
                 strong{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin: 0;
                     color: $color-text1;
                     font-size: $primary-text1;
                 }
@@ -35,9 +67,6 @@ header{
 
 footer{
     .titles-terciario{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         color: $color-text2;
         font-size: $secondary-text1;
 
@@ -54,11 +83,12 @@ footer{
        
     }
 
+
     .div-social-bar{
         margin: 20px;
         padding: 0;
         box-sizing: border-box;
-    }
+    };
 
     :root{
         --Whatsapp: #4dc247;
@@ -118,29 +148,16 @@ footer{
     }
 }
 
-.titles-secundario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: rgb(61, 64, 66);
-    font-size:$primary-text2;
-    font-weight:600;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    border: none;
-    margin: 0;
-     }
-
+    
 main{
     .sec-home{
-        p{
+        p{  
+            font-size: $secondary-text1;
+            font-family: 'Oswald', sans-serif;
             strong{
                display: flex;
                justify-content: center;
                align-items: center;
-               font-size: $secondary-text1;
-               font-family: 'Oswald', sans-serif;
                text-align: center;
                padding: $spacing1*3;
             }
@@ -262,7 +279,7 @@ main{
                  }
     }
            
-    .main-galery{
+.main-galery{
         #galery{
             display: grid;
             grid-template-columns: repeat(3,1fr);

@@ -1,3 +1,35 @@
+.red-Whatsapp {
+  color: #4dc247;
+}
+
+.red-facebook {
+  color: #3b5999;
+}
+
+.red-instagram {
+  color: #C13584;
+}
+
+.red-twitter {
+  color: #55acee;
+}
+
+.red-Whatsapp {
+  color: #4dc247;
+}
+
+.red-facebook {
+  color: #3b5999;
+}
+
+.red-instagram {
+  color: #C13584;
+}
+
+.red-twitter {
+  color: #55acee;
+}
+
 header {
   background-color: #1f618d;
   display: block;
@@ -8,6 +40,22 @@ header {
       align-content: center;
   height: 100px;
   font-family: 'Oswald', sans-serif;
+}
+
+.red-Whatsapp {
+  color: #4dc247;
+}
+
+.red-facebook {
+  color: #3b5999;
+}
+
+.red-instagram {
+  color: #C13584;
+}
+
+.red-twitter {
+  color: #55acee;
 }
 
 main {
@@ -24,6 +72,22 @@ main {
   border: none;
 }
 
+.red-Whatsapp {
+  color: #4dc247;
+}
+
+.red-facebook {
+  color: #3b5999;
+}
+
+.red-instagram {
+  color: #C13584;
+}
+
+.red-twitter {
+  color: #55acee;
+}
+
 footer {
   display: block;
   -webkit-box-align: center;
@@ -37,6 +101,22 @@ footer {
   border: none;
   margin: 0;
   font-family: 'Oswald', sans-serif;
+}
+
+.red-Whatsapp {
+  color: #4dc247;
+}
+
+.red-facebook {
+  color: #3b5999;
+}
+
+.red-instagram {
+  color: #C13584;
+}
+
+.red-twitter {
+  color: #55acee;
 }
 
 /* @media screen and (min-width:768px){
@@ -593,6 +673,42 @@ footer{
             }
     
     } */
+/* Style para mis titulos */
+.titles, .titles-primario, .titles-secundario, .titles-terciario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  border: none;
+  margin: 0;
+}
+
+.titles-primario {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.titles-secundario {
+  color: white;
+  background-color: #3d4042;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.titles-terciario {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Style para mis contenedores */
 header {
   display: block;
   -webkit-box-pack: center;
@@ -604,16 +720,6 @@ header {
 }
 
 header .titles-primario strong {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0;
   color: #d11616;
   font-size: 30px;
 }
@@ -637,15 +743,6 @@ header .slogan strong {
 }
 
 footer .titles-terciario {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #fcf4f4;
   font-size: 15px;
 }
@@ -738,24 +835,9 @@ footer .div-social-bar ul li .icon-twitter:hover {
   background: var(--twitter);
 }
 
-.titles-secundario {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  background-color: #3d4042;
-  font-size: 20px;
-  font-weight: 600;
+main .sec-home p {
+  font-size: 15px;
   font-family: 'Oswald', sans-serif;
-  text-align: center;
-  border: none;
-  margin: 0;
 }
 
 main .sec-home p strong {
@@ -768,8 +850,6 @@ main .sec-home p strong {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15px;
-  font-family: 'Oswald', sans-serif;
   text-align: center;
   padding: 24px;
 }

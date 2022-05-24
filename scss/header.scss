@@ -1,0 +1,10 @@
+@import "variables";
+
+header{
+    background-color: $color-primary;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+}

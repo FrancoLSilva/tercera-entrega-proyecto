@@ -1,0 +1,13 @@
+@import "variables";
+
+footer{
+    display:block;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $color-primary;
+    height: 250px;
+    border: none;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+}

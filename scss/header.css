@@ -1,0 +1,12 @@
+header {
+  background-color: #1f618d;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+/*# sourceMappingURL=header.css.map */
